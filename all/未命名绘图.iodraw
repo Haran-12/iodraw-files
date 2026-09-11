@@ -39,7 +39,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="07mDXbFitBMPKVyvjQnY-11" value="**问题定义**&#xa;    单日确定性经济调度&#xa;    已知：电价 c_t、负载 L_t、光伏 R_t（10min粒度）&#xa;    目标：min 全天购电费用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="07mDXbFitBMPKVyvjQnY-11" value="**问题定义**&#xa;    单日确定性经济调度&#xa;    已知：电价 c_t、负载 L_t、光伏 R_t（10min粒度）&#xa;    目标：min 全天购电费用" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="280" y="900" width="235" height="137" as="geometry" />
         </mxCell>
         <mxCell id="07mDXbFitBMPKVyvjQnY-12" value="**变量定义**&#xa;    决策变量：P_buy, P_ch, P_dis, P_curt&#xa;    状态变量：E（储能电量），u（互斥0-1）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
