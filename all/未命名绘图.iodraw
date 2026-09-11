@@ -39,6 +39,41 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-11" value="**问题定义**&#xa;    单日确定性经济调度&#xa;    已知：电价 c_t、负载 L_t、光伏 R_t（10min粒度）&#xa;    目标：min 全天购电费用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="900" width="235" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-12" value="**变量定义**&#xa;    决策变量：P_buy, P_ch, P_dis, P_curt&#xa;    状态变量：E（储能电量），u（互斥0-1）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="565" y="909" width="253" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-13" value="**目标函数**&#xa;    购电费 + 弃光惩罚&#xa;    min ∑ c_t·P_buy·Δt&#xa;    + λ ∑ P_curt·Δt" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="868" y="926" width="198" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-14" value="**约束体系**&#xa;    ① 功率平衡  ② SOC动态&#xa;    ③ 容量约束  ④ 互斥约束&#xa;    ⑤ 功率约束  ⑥ 弃光约束&#xa;    ⑦ 日周期平衡" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1116" y="909" width="234" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-15" value="**求解输出**&#xa;    PuLP + CBC 求解器&#xa;    输出：购电策略 + SOC曲线" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="926" width="250" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="07mDXbFitBMPKVyvjQnY-11" target="07mDXbFitBMPKVyvjQnY-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="07mDXbFitBMPKVyvjQnY-12" target="07mDXbFitBMPKVyvjQnY-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="07mDXbFitBMPKVyvjQnY-13" target="07mDXbFitBMPKVyvjQnY-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07mDXbFitBMPKVyvjQnY-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="07mDXbFitBMPKVyvjQnY-14" target="07mDXbFitBMPKVyvjQnY-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
