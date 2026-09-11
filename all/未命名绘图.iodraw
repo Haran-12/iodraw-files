@@ -46,9 +46,9 @@
           <mxGeometry x="565" y="909" width="253" height="119" as="geometry" />
         </mxCell>
         <mxCell id="07mDXbFitBMPKVyvjQnY-13" value="目标函数&#xa;    购电费 + 弃光惩罚&#xa;    min ∑ c_t·P_buy·Δt&#xa;    + λ ∑ P_curt·Δt" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="868" y="926" width="198" height="91" as="geometry" />
+          <mxGeometry x="870" y="919" width="198" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="07mDXbFitBMPKVyvjQnY-14" value="**约束体系**&#xa;    ① 功率平衡  ② SOC动态&#xa;    ③ 容量约束  ④ 互斥约束&#xa;    ⑤ 功率约束  ⑥ 弃光约束&#xa;    ⑦ 日周期平衡" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="07mDXbFitBMPKVyvjQnY-14" value="**约束体系**&#xa;    ① 功率平衡  ② SOC动态&#xa;    ③ 容量约束  ④ 互斥约束&#xa;    ⑤ 功率约束  ⑥ 弃光约束&#xa;    ⑦ 日周期平衡" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1116" y="909" width="234" height="119" as="geometry" />
         </mxCell>
         <mxCell id="07mDXbFitBMPKVyvjQnY-15" value="**求解输出**&#xa;    PuLP + CBC 求解器&#xa;    输出：购电策略 + SOC曲线" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
