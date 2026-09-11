@@ -7,7 +7,7 @@
         <mxCell id="07mDXbFitBMPKVyvjQnY-2" value="问题一：单日确定性经济调度&#xa;&#xa;已知：电价 c_t、负载 L_t、光伏 R_t（10min粒度）&#xa;目标：min 全天购电费用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="280" y="240" width="260" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="07mDXbFitBMPKVyvjQnY-3" value="&lt;b&gt;决策变量定义&lt;/b&gt;&#xa;&#xa;P_buy, P_ch, P_dis, P_curt&#xa;E (储能电量) , u (互斥0-1)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="07mDXbFitBMPKVyvjQnY-3" value="决策变量定义&#xa;&#xa;P_buy, P_ch, P_dis, P_curt&#xa;E (储能电量) , u (互斥0-1)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="295" y="412" width="230" height="76" as="geometry" />
         </mxCell>
         <mxCell id="07mDXbFitBMPKVyvjQnY-4" value="&lt;b&gt;目标函数：购电费 + 弃光惩罚&lt;/b&gt;&#xa;&#xa;min ∑ c_t · P_buy · Δt&#xa;+ λ ∑ P_curt · Δt" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
