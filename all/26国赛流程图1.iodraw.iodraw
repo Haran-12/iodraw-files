@@ -34,7 +34,7 @@
         <mxCell id="c8zDn8Aw5VRdBecHSiLH-8" value="图5-4 预处理流程图" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="140" y="600" width="1325" height="207" as="geometry" />
         </mxCell>
-        <mxCell id="c8zDn8Aw5VRdBecHSiLH-9" value="📄 原始附件层&#xa;&#xa;内容：附件1-4&#xa;说明：原始数据输入" style="whiteSpace=wrap;strokeWidth=2;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;fontStyle=1" vertex="1" parent="c8zDn8Aw5VRdBecHSiLH-8">
+        <mxCell id="c8zDn8Aw5VRdBecHSiLH-9" value="📄 原始附件层&#xa;&#xa;内容：附件1-4&#xa;说明：原始数据输入" style="whiteSpace=wrap;strokeWidth=2;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="c8zDn8Aw5VRdBecHSiLH-8">
           <mxGeometry x="40" y="48.5" width="254" height="131.5" as="geometry" />
         </mxCell>
         <mxCell id="c8zDn8Aw5VRdBecHSiLH-10" value="🔍 诊断与对齐层&#xa;&#xa;内容：八维度诊断 + 整点线性插值&#xa;说明：数据质量检查、时间戳对齐、缺失值处理" style="whiteSpace=wrap;strokeWidth=2;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="c8zDn8Aw5VRdBecHSiLH-8">
